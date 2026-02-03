@@ -42,6 +42,8 @@ export const metadata: Metadata = {
   },
 };
 
+import ChatBot from "@/components/chat-bot";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -100,6 +102,7 @@ export default function RootLayout({
         className={`${kanit.variable} ${outfit.variable} ${caveat.variable} antialiased font-[family-name:var(--font-outfit)] bg-[#050505] text-[#f0f0f0]`}
       >
         {children}
+        <ChatBot />
       </body>
     </html>
   );
