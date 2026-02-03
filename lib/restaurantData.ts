@@ -7,12 +7,17 @@ export const restaurantInfo = {
   },
   contact: {
     phone: "(951) 780-1132",
-    email: "info@grapow.net" // Placeholder
+    email: "info@grapow.net"
   },
   hours: {
     "Mon-Thu": "11:00 AM - 9:00 PM",
     "Fri-Sat": "11:00 AM - 10:00 PM",
     "Sun": "11:00 AM - 9:00 PM"
+  },
+  barHours: {
+    "Mon-Thu": "11:00 AM - 10:00 PM",
+    "Fri-Sat": "11:00 AM - 11:00 PM",
+    "Sun": "11:00 AM - 10:00 PM"
   },
   happyHour: {
     details: "Daily 3pm - 6pm. $5 Drafts, $8 Signature Cocktails, Half-off selected appetizers.",
